@@ -21,7 +21,7 @@ const db = require("./app/models");
 const Role = db.role;
 
 db.mongoose
-  .connect("mongodb+srv://admin:JsnNhwY1ZJ5v8WBE@cluster0-3q4gq.mongodb.net/user?retryWrites=true&w=majority", {
+  .connect("mongodb://admin:Evangelion$1@ds155516.mlab.com:55516/heroku_6htdrjbk", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
