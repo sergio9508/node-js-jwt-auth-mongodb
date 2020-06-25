@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/user.model");
 exports.allAccess = (req, res) => {
   res.status(200).send("Public Content.");
 };
